@@ -10,13 +10,22 @@
 #import "JAExclusive.h"
 
 @interface ViewController ()
-
+@property (copy,nonatomic) NSString *abc;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.view p_propertyList:false];
+    [self.view p_propertyList:true];
+    [self.view p_cleanCacheList];
+    [self.view p_propertyList:true];
+    
+    [self p_methodList:true];
+    [self p_cleanCacheList];
+    [UIViewController p_methodList:true];
 }
 
 - (void)viewWillAppear:(BOOL)animated {

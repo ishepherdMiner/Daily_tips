@@ -9,3 +9,4 @@
 
 #import "UIView+JAlldb.h"
 #import "UIViewController+JAlldb.h"
+#import "NSObject+JAlldb.h"

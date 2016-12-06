@@ -13,8 +13,9 @@
 		962CFD3F1DECFA5F00F53403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962CFD3D1DECFA5F00F53403 /* Main.storyboard */; };
 		962CFD411DECFA5F00F53403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962CFD401DECFA5F00F53403 /* Assets.xcassets */; };
 		962CFD441DECFA5F00F53403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962CFD421DECFA5F00F53403 /* LaunchScreen.storyboard */; };
-		96A7741B1DEDC3C700987915 /* UIView+JAlldb.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A774181DEDC3C700987915 /* UIView+JAlldb.m */; };
-		96A7741C1DEDC3C700987915 /* UIViewController+JAlldb.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A7741A1DEDC3C700987915 /* UIViewController+JAlldb.m */; };
+		96925FD31DF70BCD00D5ABA2 /* UIView+JAlldb.m in Sources */ = {isa = PBXBuildFile; fileRef = 96925FD01DF70BCD00D5ABA2 /* UIView+JAlldb.m */; };
+		96925FD41DF70BCD00D5ABA2 /* UIViewController+JAlldb.m in Sources */ = {isa = PBXBuildFile; fileRef = 96925FD21DF70BCD00D5ABA2 /* UIViewController+JAlldb.m */; };
+		96925FD71DF70BF300D5ABA2 /* NSObject+JAlldb.m in Sources */ = {isa = PBXBuildFile; fileRef = 96925FD61DF70BF300D5ABA2 /* NSObject+JAlldb.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +29,13 @@
 		962CFD401DECFA5F00F53403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		962CFD431DECFA5F00F53403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		962CFD451DECFA5F00F53403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96A774171DEDC3C700987915 /* UIView+JAlldb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JAlldb.h"; sourceTree = "<group>"; };
-		96A774181DEDC3C700987915 /* UIView+JAlldb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JAlldb.m"; sourceTree = "<group>"; };
-		96A774191DEDC3C700987915 /* UIViewController+JAlldb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JAlldb.h"; sourceTree = "<group>"; };
-		96A7741A1DEDC3C700987915 /* UIViewController+JAlldb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JAlldb.m"; sourceTree = "<group>"; };
-		96A7741D1DEDC3E700987915 /* JAExclusive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAExclusive.h; sourceTree = "<group>"; };
+		96925FCE1DF70BCD00D5ABA2 /* JAExclusive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAExclusive.h; sourceTree = "<group>"; };
+		96925FCF1DF70BCD00D5ABA2 /* UIView+JAlldb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JAlldb.h"; sourceTree = "<group>"; };
+		96925FD01DF70BCD00D5ABA2 /* UIView+JAlldb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JAlldb.m"; sourceTree = "<group>"; };
+		96925FD11DF70BCD00D5ABA2 /* UIViewController+JAlldb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JAlldb.h"; sourceTree = "<group>"; };
+		96925FD21DF70BCD00D5ABA2 /* UIViewController+JAlldb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JAlldb.m"; sourceTree = "<group>"; };
+		96925FD51DF70BF300D5ABA2 /* NSObject+JAlldb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JAlldb.h"; sourceTree = "<group>"; };
+		96925FD61DF70BF300D5ABA2 /* NSObject+JAlldb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JAlldb.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +68,7 @@
 		962CFD331DECFA5F00F53403 /* lldb-exclusive */ = {
 			isa = PBXGroup;
 			children = (
-				96A774161DEDC3C700987915 /* Classes */,
+				96925FCD1DF70BCD00D5ABA2 /* utils */,
 				962CFD371DECFA5F00F53403 /* AppDelegate.h */,
 				962CFD381DECFA5F00F53403 /* AppDelegate.m */,
 				962CFD3A1DECFA5F00F53403 /* ViewController.h */,
@@ -87,16 +90,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		96A774161DEDC3C700987915 /* Classes */ = {
+		96925FCD1DF70BCD00D5ABA2 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				96A7741D1DEDC3E700987915 /* JAExclusive.h */,
-				96A774171DEDC3C700987915 /* UIView+JAlldb.h */,
-				96A774181DEDC3C700987915 /* UIView+JAlldb.m */,
-				96A774191DEDC3C700987915 /* UIViewController+JAlldb.h */,
-				96A7741A1DEDC3C700987915 /* UIViewController+JAlldb.m */,
+				96925FCE1DF70BCD00D5ABA2 /* JAExclusive.h */,
+				96925FD51DF70BF300D5ABA2 /* NSObject+JAlldb.h */,
+				96925FD61DF70BF300D5ABA2 /* NSObject+JAlldb.m */,
+				96925FCF1DF70BCD00D5ABA2 /* UIView+JAlldb.h */,
+				96925FD01DF70BCD00D5ABA2 /* UIView+JAlldb.m */,
+				96925FD11DF70BCD00D5ABA2 /* UIViewController+JAlldb.h */,
+				96925FD21DF70BCD00D5ABA2 /* UIViewController+JAlldb.m */,
 			);
-			path = Classes;
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,11 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96925FD71DF70BF300D5ABA2 /* NSObject+JAlldb.m in Sources */,
 				962CFD3C1DECFA5F00F53403 /* ViewController.m in Sources */,
-				96A7741C1DEDC3C700987915 /* UIViewController+JAlldb.m in Sources */,
+				96925FD41DF70BCD00D5ABA2 /* UIViewController+JAlldb.m in Sources */,
 				962CFD391DECFA5F00F53403 /* AppDelegate.m in Sources */,
 				962CFD361DECFA5F00F53403 /* main.m in Sources */,
-				96A7741B1DEDC3C700987915 /* UIView+JAlldb.m in Sources */,
+				96925FD31DF70BCD00D5ABA2 /* UIView+JAlldb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
