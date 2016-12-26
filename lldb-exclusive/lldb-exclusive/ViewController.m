@@ -26,6 +26,7 @@
     [self p_methodList:true];
     [self p_cleanCacheList];
     [UIViewController p_methodList:true];
+    UIControl
 }
 
 - (void)viewWillAppear:(BOOL)animated {
