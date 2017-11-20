@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  lldb-exclusive
+//  Daily_tips
 //
 //  Created by Jason on 29/11/2016.
 //  Copyright © 2016 Jason. All rights reserved.
@@ -26,7 +26,6 @@
     [self p_methodList:true];
     [self p_cleanCacheList];
     [UIViewController p_methodList:true];
-    UIControl
 }
 
 - (void)viewWillAppear:(BOOL)animated {

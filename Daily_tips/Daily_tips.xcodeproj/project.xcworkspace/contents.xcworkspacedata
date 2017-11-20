@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:lldb-exclusive.xcodeproj">
+      location = "self:/Users/Jason/Developer/Me/Github/lldb-exclusive/lldb-exclusive/Daily_tips.xcodeproj">
    </FileRef>
 </Workspace>

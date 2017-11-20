@@ -1,6 +1,6 @@
 //
 //  NSObject+JAlldb.m
-//  lldb-exclusive
+//  Daily_tips
 //
 //  Created by Jason on 06/12/2016.
 //  Copyright © 2016 Jason. All rights reserved.
@@ -11,9 +11,9 @@
 
 @implementation NSObject (JAlldb)
 
-const void* propertiesKey = "com.coder.lldb-exclusive.propertiesKey";
-const void* ivarKey = "com.coder.lldb-exclusive.ivarKey";
-const void* methodKey = "com.coder.lldb-exclusive.methodKey";
+const void* propertiesKey = "com.coder.Daily_tips.propertiesKey";
+const void* ivarKey = "com.coder.Daily_tips.ivarKey";
+const void* methodKey = "com.coder.Daily_tips.methodKey";
 
 - (NSArray *)p_propertyList:(BOOL)recursive {
     
@@ -103,9 +103,6 @@ const void* methodKey = "com.coder.lldb-exclusive.methodKey";
         return plistM.copy;
         
     }() : glist;
-    
-    
-    
 }
 
 - (void)p_cleanCacheList {

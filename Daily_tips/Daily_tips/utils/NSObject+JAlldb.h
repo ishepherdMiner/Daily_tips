@@ -1,6 +1,6 @@
 //
 //  NSObject+JAlldb.h
-//  lldb-exclusive
+//  Daily_tips
 //
 //  Created by Jason on 06/12/2016.
 //  Copyright © 2016 Jason. All rights reserved.
